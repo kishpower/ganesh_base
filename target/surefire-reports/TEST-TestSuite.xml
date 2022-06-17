@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="137.116" tests="7" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\eclipse installed here\eclipse workspace\testAssign\target\test-classes;F:\eclipse installed here\eclipse workspace\testAssign\target\classes;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kish\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\kish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\kish\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\kish\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kish\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kish\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\kish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\kish\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\kish\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kish\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\kish\AppData\Local\Temp\surefire5584103785013752465\surefirebooter3899289885266934068.jar C:\Users\kish\AppData\Local\Temp\surefire5584103785013752465 2022-06-17T16-24-58_798-jvmRun1 surefire4889924990401984309tmp surefire_05041559527456073536tmp"/>
+    <property name="surefire.test.class.path" value="F:\eclipse installed here\eclipse workspace\testAssign\target\test-classes;F:\eclipse installed here\eclipse workspace\testAssign\target\classes;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kish\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\kish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\kish\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\kish\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kish\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kish\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\kish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\kish\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\kish\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kish\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kish"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
+    <property name="basedir" value="F:\eclipse installed here\eclipse workspace\testAssign"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kish\AppData\Local\Temp\surefire5584103785013752465\surefirebooter3899289885266934068.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="user.name" value="kish"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kish\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kish\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="user.dir" value="F:\eclipse installed here\eclipse workspace\testAssign"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files (x86)\python;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Git\cmd;F:\eclipse installed here\maven installed here\bin;C:\Users\kish\AppData\Local\Android\Sdk\emulator;C:\Users\kish\AppData\Local\Android\Sdk\tools\bin;C:\Users\kish\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kish\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;D:\Program Files (x86)\python\Scripts;D:\Program Files (x86)\python;C:\Users\kish\AppData\Roaming\npm;C:\Users\kish\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="24.304">
+    <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+</failure>
+    <system-err><![CDATA[1655463300799	geckodriver	INFO	Listening on 127.0.0.1:22902
+1655463301587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofile3Bqwop"
+1655463302041	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofile3Bqwop\\search.json.mozlz4", (void 0)))
+1655463304488	Marionette	INFO	Listening on port 49446
+1655463304639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 17, 2022 4:25:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenJext.iavaSo"cr
+ipt error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+]]></system-err>
+  </testcase>
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="6.293">
+    <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+</failure>
+    <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+]]></system-err>
+  </testcase>
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="12.327">
+    <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+</failure>
+    <system-err><![CDATA[
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CreateBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CreateWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CreateBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CreateWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CreateBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CreateWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: fallJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+ing back to a synchronous message for:" "https://meralda.scalenext.io"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+]]></system-err>
+  </testcase>
+  <testcase name="openLoginPage" classname="testClasses.LoginTest" time="21.793"/>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="16.697"/>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="11.319">
+    <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
+	at testClasses.LoginTest.fillCredentials(LoginTest.java:73)
+</failure>
+    <system-err><![CDATA[JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scaJleneavaxt.io"Scr
+ipt error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+]]></system-err>
+  </testcase>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="10.596"/>
+</testsuite>

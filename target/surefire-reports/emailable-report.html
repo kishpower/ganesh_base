@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">56,455</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test1</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">80,022</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">136,477</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">testClasses.RegistrationTest</td><td><a href="#m0">fillInfo</a></td><td rowspan="3">1655463305648</td><td rowspan="3">23785</td></tr><tr class="failedeven"><td><a href="#m1">fillInfo</a></td></tr><tr class="failedeven"><td><a href="#m2">fillInfo</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testClasses.LoginTest</td><td><a href="#m3">fillCredentials</a></td><td rowspan="1">1655463399292</td><td rowspan="1">11181</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testClasses.LoginTest</td><td><a href="#m4">fillCredentials</a></td><td rowspan="2">1655463382591</td><td rowspan="2">16700</td></tr><tr class="passedeven"><td><a href="#m5">fillCredentials</a></td></tr><tr class="passedeven"><td><a href="#m6">openLoginPage</a></td><td rowspan="1">1655463360751</td><td rowspan="1">21792</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testClasses.RegistrationTest#fillInfo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>aa</td><td>aaa</td><td>fa@g.com</td><td>2000-02-20</td><td>9404094040</td><td>adminadmin</td><td>adminadmin</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testClasses.RegistrationTest#fillInfo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>tt</td><td>tt</td><td>asr</td><td>2000-02-21</td><td>9999999999</td><td>ganeshw</td><td>ganeshw</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testClasses.RegistrationTest#fillInfo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>ada</td><td>ad</td><td>g@g.com</td><td>2000-02-22</td><td>9090909909</td><td>testanon</td><td>testanon</td></tr><tr><th colspan="7">Exception</th></tr><tr><td colspan="7"><div class="stacktrace">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m3">testClasses.LoginTest#fillCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>asr</td><td>9999999999</td><td>ganeshw</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
+	at testClasses.LoginTest.fillCredentials(LoginTest.java:73)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testClasses.LoginTest#fillCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>fa@g.com</td><td>9.40409404E9</td><td>adminadmin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testClasses.LoginTest#fillCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>g@g.com</td><td>9090909909</td><td>testanon</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testClasses.LoginTest#openLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

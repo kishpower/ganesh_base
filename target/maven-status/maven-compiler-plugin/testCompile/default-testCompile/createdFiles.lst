@@ -1,0 +1,4 @@
+testClasses\CustomListenerForLogin.class
+testClasses\CustomListenerForRegistration.class
+testClasses\RegistrationTest.class
+testClasses\LoginTest.class
