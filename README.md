@@ -2,7 +2,7 @@
  Meralda Login and registration tests
  
  
- Project type-MAVEN
+ Project type-MAVEN <br>
  Tools used- selenium using POMClasses,Testng
  
 Tests can be found at src/test/java/testClasses/ <br>
