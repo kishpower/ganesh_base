@@ -3,7 +3,7 @@
  
  
  Project type-MAVEN <br>
- Tools used- selenium using POMClasses,Testng
+ Tools used- selenium using POMClasses,Testng,Data Driven Tests using Apache POI
  
 Tests can be found at src/test/java/testClasses/ <br>
 Reports can be found at target/surefire-reports/index.html <br>
