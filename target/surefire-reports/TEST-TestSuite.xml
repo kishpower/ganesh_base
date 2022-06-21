@@ -1,83 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="86.354" tests="7" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="93.901" tests="7" errors="0" skipped="0" failures="6">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="F:\eclipse installed here\eclipse workspace\testAssign\target\test-classes;F:\eclipse installed here\eclipse workspace\testAssign\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.class.path" value="F:\eclipse installed here\eclipse workspace\testAssign\target\test-classes;F:\eclipse installed here\eclipse workspace\testAssign\target\classes;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kish\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\kish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\kish\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\kish\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kish\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kish\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\kish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\kish\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\kish\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kish\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="user.country" value="IN"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
-    <property name="sun.java.command" value="C:\Windows\TEMP\surefire901761375617767862\surefirebooter144258293799487562.jar C:\Windows\Temp\surefire901761375617767862 2022-06-21T11-24-36_128-jvmRun1 surefire3340338307900111983tmp surefire_07533237514210435440tmp"/>
-    <property name="surefire.test.class.path" value="F:\eclipse installed here\eclipse workspace\testAssign\target\test-classes;F:\eclipse installed here\eclipse workspace\testAssign\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\kish\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\kish\AppData\Local\Temp\surefire1734048868167476267\surefirebooter11677746370161537307.jar C:\Users\kish\AppData\Local\Temp\surefire1734048868167476267 2022-06-21T11-31-22_476-jvmRun1 surefire14714205614021464163tmp surefire_06461099257265062277tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\eclipse installed here\eclipse workspace\testAssign\target\test-classes;F:\eclipse installed here\eclipse workspace\testAssign\target\classes;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kish\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\kish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\kish\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\kish\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kish\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kish\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\kish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\kish\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\kish\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kish\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.home" value="C:\Users\kish"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
-    <property name="basedir" value="F:\eclipse installed here\eclipse workspace\testAssign"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Users\kish\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre"/>
     <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\eclipse installed here\eclipse workspace\testAssign"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Windows\TEMP\surefire901761375617767862\surefirebooter144258293799487562.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\kish\AppData\Local\Temp\surefire1734048868167476267\surefirebooter11677746370161537307.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_321-b07"/>
-    <property name="user.name" value="DESKTOP-AJFIL4Q$"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="kish"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
-    <property name="java.version" value="1.8.0_321"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="C:\Users\kish\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\kish\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
     <property name="user.dir" value="F:\eclipse installed here\eclipse workspace\testAssign"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_321\jre/bin;C:\Program Files\Java\jdk1.8.0_321\jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files (x86)\python;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Git\cmd;F:\eclipse installed here\maven installed here\bin;C:\Users\kish\AppData\Local\Android\Sdk\emulator;C:\Users\kish\AppData\Local\Android\Sdk\tools\bin;C:\Users\kish\AppData\Local\Android\Sdk\platform-tools;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\kish\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/kish/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/kish/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files (x86)\python;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Git\cmd;F:\eclipse installed here\maven installed here\bin;C:\Users\kish\AppData\Local\Android\Sdk\emulator;C:\Users\kish\AppData\Local\Android\Sdk\tools\bin;C:\Users\kish\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kish\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;D:\Program Files (x86)\python\Scripts;D:\Program Files (x86)\python;C:\Users\kish\AppData\Roaming\npm;C:\Users\kish\AppData\Local\GitHubDesktop\bin;C:\Users\kish\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.321-b07"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="21.86">
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="22.733">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 </failure>
-    <system-err><![CDATA[1655790877954	geckodriver	INFO	Listening on 127.0.0.1:34458
-1655790878678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Windows\\TEMP\\rust_mozprofileGqE90R"
-1655790879643	Marionette	INFO	Marionette enabled
-[GFX1-]: RcANGLE(no compositor window)
-[GFX1-]: Failed to connect WebRenderBridgeChild. isParent=true
-[GFX1-]: Fallback WR to SW-WR + D3D11
-[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
-[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Windows\\TEMP\\rust_mozprofileGqE90R\\search.json.mozlz4", (void 0)))
-[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
-[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
-1655790881834	Marionette	INFO	Listening on port 53084
-1655790882063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jun 21, 2022 11:24:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1655791284184	geckodriver	INFO	Listening on 127.0.0.1:19172
+1655791284449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofile6q9rws"
+1655791284931	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofile6q9rws\\search.json.mozlz4", (void 0)))
+1655791287545	Marionette	INFO	Listening on port 53832
+1655791288064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2022 11:31:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
@@ -87,17 +77,19 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 ]]></system-err>
   </testcase>
-  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="2.324">
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="2.805">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 </failure>
     <system-out><![CDATA[fillInfo
 ]]></system-out>
-    <system-err><![CDATA[1655790904799	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+    <system-err><![CDATA[1655791311927	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1655791311932	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 ]]></system-err>
   </testcase>
-  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="2.405">
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="2.611">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 </failure>
@@ -108,53 +100,54 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenextJ.avaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeEio"
-rror: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 ]]></system-err>
   </testcase>
-  <testcase name="openLoginPage" classname="testClasses.LoginTest" time="10.326"/>
-  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="2.246">
+  <testcase name="openLoginPage" classname="testClasses.LoginTest" time="16.96"/>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="3.028">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
 	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
 </failure>
     <system-out><![CDATA[fillCredentials
 ]]></system-out>
     <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-]]></system-err>
-  </testcase>
-  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="2.442">
-    <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
-	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
-</failure>
-    <system-out><![CDATA[fillCredentials
-]]></system-out>
-    <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalJenext.io"
+Jconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
 avaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 ]]></system-err>
   </testcase>
-  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="2.128">
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="2.903">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
 	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
 </failure>
     <system-out><![CDATA[fillCredentials
 ]]></system-out>
     <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scaJlenext.io"
-avaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" J"https://meralda.scalenexavaScript errot.ior: res"ourc
+e://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous messJavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: age TypeError: gRecipeManager is null
-for:" "https://meralda.scalenext.io"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+]]></system-err>
+  </testcase>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="1.982">
+    <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
+	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
+</failure>
+    <system-out><![CDATA[fillCredentials
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+console.warn: LoginRecipes: "getRecipes: falling bacJk to a synchronous messagavaScrie pt error: resofor:" "https://meralda.scalenext.io"
+urce://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 ]]></system-err>
   </testcase>
 </testsuite>

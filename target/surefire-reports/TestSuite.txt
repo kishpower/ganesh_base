@@ -1,28 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 86.354 s <<< FAILURE! - in TestSuite
-fillInfo(testClasses.RegistrationTest)  Time elapsed: 21.86 s  <<< FAILURE!
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 93.901 s <<< FAILURE! - in TestSuite
+fillInfo(testClasses.RegistrationTest)  Time elapsed: 22.733 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 
-fillInfo(testClasses.RegistrationTest)  Time elapsed: 2.324 s  <<< FAILURE!
+fillInfo(testClasses.RegistrationTest)  Time elapsed: 2.805 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 
-fillInfo(testClasses.RegistrationTest)  Time elapsed: 2.405 s  <<< FAILURE!
+fillInfo(testClasses.RegistrationTest)  Time elapsed: 2.611 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 
-fillCredentials(testClasses.LoginTest)  Time elapsed: 2.246 s  <<< FAILURE!
+fillCredentials(testClasses.LoginTest)  Time elapsed: 3.028 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
 	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
 
-fillCredentials(testClasses.LoginTest)  Time elapsed: 2.442 s  <<< FAILURE!
+fillCredentials(testClasses.LoginTest)  Time elapsed: 2.903 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
 	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
 
-fillCredentials(testClasses.LoginTest)  Time elapsed: 2.128 s  <<< FAILURE!
+fillCredentials(testClasses.LoginTest)  Time elapsed: 1.982 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
 	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
 

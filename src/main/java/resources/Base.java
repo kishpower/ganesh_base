@@ -13,7 +13,6 @@ import java.util.Properties;
 
 import javax.imageio.ImageIO;
 
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -54,8 +53,8 @@ public class Base {
 					+ "\\src\\main\\java\\resources\\BrowserDrivers\\Chrome\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		Dimension d = new Dimension(400, 400);
-		driver.manage().window().setSize(d);;
+		// Dimension d = new Dimension(400, 400);
+		driver.manage().window().maximize();
 
 		return driver;
 	}
