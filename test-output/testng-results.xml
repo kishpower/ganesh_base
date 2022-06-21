@@ -1,21 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results skipped="0" failed="4" ignored="0" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-21T12:21:41 IST" name="Default suite" finished-at="2022-06-21T12:22:50 IST" duration-ms="68852">
+  <suite name="Suite" duration-ms="160239" started-at="2022-06-21T13:44:42 IST" finished-at="2022-06-21T13:47:22 IST">
     <groups>
     </groups>
-    <test started-at="2022-06-21T12:21:41 IST" name="Default test" finished-at="2022-06-21T12:22:50 IST" duration-ms="68852">
-      <class name="testClasses.LoginTest">
-        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:testClasses.LoginTest@61d6015a]" started-at="2022-06-21T12:21:41 IST" name="invokeBrowser" finished-at="2022-06-21T12:21:45 IST" duration-ms="4283" status="PASS">
+    <test name="Test" duration-ms="50098" started-at="2022-06-21T13:44:42 IST" finished-at="2022-06-21T13:45:32 IST">
+      <class name="testClasses.RegistrationTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.RegistrationTest@56aac163]" name="invokeBrowser" is-config="true" duration-ms="4880" started-at="2022-06-21T13:44:42 IST" finished-at="2022-06-21T13:44:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="openLoginPage()[pri:0, instance:testClasses.LoginTest@61d6015a]" started-at="2022-06-21T12:21:45 IST" name="openLoginPage" finished-at="2022-06-21T12:21:59 IST" duration-ms="13385" status="PASS">
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@56aac163]" name="fillInfo" duration-ms="34348" started-at="2022-06-21T13:44:47 IST" data-provider="getData" finished-at="2022-06-21T13:45:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fa@g.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2000-02-20]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9404094040]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MERALDA || HOME] but found [Meralda || Register]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInfo -->
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@56aac163]" name="fillInfo" duration-ms="3330" started-at="2022-06-21T13:45:22 IST" data-provider="getData" finished-at="2022-06-21T13:45:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[asr]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2000-02-21]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ganeshw]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ganeshw]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MERALDA || HOME] but found [Meralda || Register]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInfo -->
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@56aac163]" name="fillInfo" duration-ms="5438" started-at="2022-06-21T13:45:25 IST" data-provider="getData" finished-at="2022-06-21T13:45:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[g@g.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2000-02-22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9090909909]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testanon]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testanon]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MERALDA || HOME] but found [Meralda || Register]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInfo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClasses.RegistrationTest@56aac163]" name="closeBrowser" is-config="true" duration-ms="950" started-at="2022-06-21T13:45:31 IST" finished-at="2022-06-21T13:45:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClasses.RegistrationTest -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="110111" started-at="2022-06-21T13:45:32 IST" finished-at="2022-06-21T13:47:22 IST">
+      <class name="testClasses.LoginTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.LoginTest@33c7e1bb]" name="invokeBrowser" is-config="true" duration-ms="4068" started-at="2022-06-21T13:45:32 IST" finished-at="2022-06-21T13:45:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:testClasses.LoginTest@33c7e1bb]" name="openLoginPage" duration-ms="23906" started-at="2022-06-21T13:45:36 IST" finished-at="2022-06-21T13:46:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPage -->
-        <test-method signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@61d6015a]" started-at="2022-06-21T12:21:59 IST" name="fillCredentials" data-provider="getDataForLogin" finished-at="2022-06-21T12:22:30 IST" depends-on-methods="testClasses.LoginTest.openLoginPage" duration-ms="30408" status="PASS">
+        <test-method status="PASS" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@33c7e1bb]" name="fillCredentials" duration-ms="70808" started-at="2022-06-21T13:46:00 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T13:47:10 IST">
           <params>
             <param index="0">
               <value>
@@ -36,7 +300,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@61d6015a]" started-at="2022-06-21T12:22:30 IST" name="fillCredentials" data-provider="getDataForLogin" finished-at="2022-06-21T12:22:34 IST" depends-on-methods="testClasses.LoginTest.openLoginPage" duration-ms="4373" status="FAIL">
+        <test-method status="FAIL" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@33c7e1bb]" name="fillCredentials" duration-ms="6227" started-at="2022-06-21T13:47:11 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T13:47:17 IST">
           <params>
             <param index="0">
               <value>
@@ -66,10 +330,10 @@ at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
 at testClasses.LoginTest.fillCredentials(LoginTest.java:84)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -78,7 +342,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.util.ArrayList.forEach(Unknown Source)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -100,7 +364,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@61d6015a]" started-at="2022-06-21T12:22:34 IST" name="fillCredentials" data-provider="getDataForLogin" finished-at="2022-06-21T12:22:37 IST" depends-on-methods="testClasses.LoginTest.openLoginPage" duration-ms="3134" status="PASS">
+        <test-method status="PASS" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@33c7e1bb]" name="fillCredentials" duration-ms="4089" started-at="2022-06-21T13:47:17 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T13:47:21 IST">
           <params>
             <param index="0">
               <value>
@@ -121,11 +385,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:testClasses.LoginTest@61d6015a]" started-at="2022-06-21T12:22:37 IST" name="closeTab" finished-at="2022-06-21T12:22:50 IST" duration-ms="12322" status="PASS">
+        <test-method status="PASS" signature="closeTab()[pri:0, instance:testClasses.LoginTest@33c7e1bb]" name="closeTab" is-config="true" duration-ms="898" started-at="2022-06-21T13:47:21 IST" finished-at="2022-06-21T13:47:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTab -->
       </class> <!-- testClasses.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

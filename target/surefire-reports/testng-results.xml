@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="3" failed="4" skipped="0">
+<testng-results skipped="0" failed="4" ignored="0" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-21T13:29:06 IST" name="Suite" finished-at="2022-06-21T13:30:13 IST" duration-ms="66253">
+  <suite name="Suite" duration-ms="197506" started-at="2022-06-21T13:49:00 IST" finished-at="2022-06-21T13:52:18 IST">
     <groups>
     </groups>
-    <test started-at="2022-06-21T13:29:06 IST" name="Test" finished-at="2022-06-21T13:29:34 IST" duration-ms="27778">
+    <test name="Test" duration-ms="49333" started-at="2022-06-21T13:49:00 IST" finished-at="2022-06-21T13:49:49 IST">
       <class name="testClasses.RegistrationTest">
-        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:testClasses.RegistrationTest@687e99d8]" started-at="2022-06-21T13:29:06 IST" name="invokeBrowser" finished-at="2022-06-21T13:29:11 IST" duration-ms="4188" status="PASS">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="invokeBrowser" is-config="true" duration-ms="4787" started-at="2022-06-21T13:49:00 IST" finished-at="2022-06-21T13:49:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@687e99d8]" started-at="2022-06-21T13:29:11 IST" name="fillInfo" data-provider="getData" finished-at="2022-06-21T13:29:25 IST" duration-ms="14128" status="FAIL">
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="34309" started-at="2022-06-21T13:49:05 IST" data-provider="getData" finished-at="2022-06-21T13:49:40 IST">
           <params>
             <param index="0">
               <value>
@@ -61,10 +61,10 @@ at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
 at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -73,7 +73,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.util.ArrayList.forEach(Unknown Source)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -99,7 +99,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillInfo -->
-        <test-method signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@687e99d8]" started-at="2022-06-21T13:29:26 IST" name="fillInfo" data-provider="getData" finished-at="2022-06-21T13:29:28 IST" duration-ms="2696" status="FAIL">
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="2916" started-at="2022-06-21T13:49:40 IST" data-provider="getData" finished-at="2022-06-21T13:49:43 IST">
           <params>
             <param index="0">
               <value>
@@ -149,10 +149,10 @@ at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
 at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -161,7 +161,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.util.ArrayList.forEach(Unknown Source)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -187,7 +187,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillInfo -->
-        <test-method signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@687e99d8]" started-at="2022-06-21T13:29:28 IST" name="fillInfo" data-provider="getData" finished-at="2022-06-21T13:29:33 IST" duration-ms="4691" status="FAIL">
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="5080" started-at="2022-06-21T13:49:43 IST" data-provider="getData" finished-at="2022-06-21T13:49:48 IST">
           <params>
             <param index="0">
               <value>
@@ -237,10 +237,10 @@ at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
 at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -249,7 +249,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.util.ArrayList.forEach(Unknown Source)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -275,23 +275,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillInfo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testClasses.RegistrationTest@687e99d8]" started-at="2022-06-21T13:29:33 IST" name="closeBrowser" finished-at="2022-06-21T13:29:34 IST" duration-ms="922" status="PASS">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="closeBrowser" is-config="true" duration-ms="1121" started-at="2022-06-21T13:49:48 IST" finished-at="2022-06-21T13:49:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testClasses.RegistrationTest -->
     </test> <!-- Test -->
-    <test started-at="2022-06-21T13:29:34 IST" name="Test1" finished-at="2022-06-21T13:30:13 IST" duration-ms="38437">
+    <test name="Test1" duration-ms="148143" started-at="2022-06-21T13:49:49 IST" finished-at="2022-06-21T13:52:18 IST">
       <class name="testClasses.LoginTest">
-        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:testClasses.LoginTest@68567e20]" started-at="2022-06-21T13:29:34 IST" name="invokeBrowser" finished-at="2022-06-21T13:29:38 IST" duration-ms="3563" status="PASS">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.LoginTest@5383967b]" name="invokeBrowser" is-config="true" duration-ms="4055" started-at="2022-06-21T13:49:49 IST" finished-at="2022-06-21T13:49:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method signature="openLoginPage()[pri:0, instance:testClasses.LoginTest@68567e20]" started-at="2022-06-21T13:29:38 IST" name="openLoginPage" finished-at="2022-06-21T13:29:51 IST" duration-ms="12898" status="PASS">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:testClasses.LoginTest@5383967b]" name="openLoginPage" duration-ms="54019" started-at="2022-06-21T13:49:53 IST" finished-at="2022-06-21T13:50:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPage -->
-        <test-method signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@68567e20]" started-at="2022-06-21T13:29:51 IST" name="fillCredentials" data-provider="getDataForLogin" finished-at="2022-06-21T13:30:04 IST" depends-on-methods="testClasses.LoginTest.openLoginPage" duration-ms="13270" status="PASS">
+        <test-method status="PASS" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="80814" started-at="2022-06-21T13:50:48 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T13:52:08 IST">
           <params>
             <param index="0">
               <value>
@@ -312,7 +312,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@68567e20]" started-at="2022-06-21T13:30:04 IST" name="fillCredentials" data-provider="getDataForLogin" finished-at="2022-06-21T13:30:08 IST" depends-on-methods="testClasses.LoginTest.openLoginPage" duration-ms="4272" status="FAIL">
+        <test-method status="FAIL" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="5003" started-at="2022-06-21T13:52:08 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T13:52:13 IST">
           <params>
             <param index="0">
               <value>
@@ -342,10 +342,10 @@ at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
 at testClasses.LoginTest.fillCredentials(LoginTest.java:84)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -354,7 +354,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.util.ArrayList.forEach(Unknown Source)
 at org.testng.TestRunner.privateRun(TestRunner.java:766)
 at org.testng.TestRunner.run(TestRunner.java:587)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
@@ -380,7 +380,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@68567e20]" started-at="2022-06-21T13:30:08 IST" name="fillCredentials" data-provider="getDataForLogin" finished-at="2022-06-21T13:30:12 IST" depends-on-methods="testClasses.LoginTest.openLoginPage" duration-ms="3312" status="PASS">
+        <test-method status="PASS" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="3482" started-at="2022-06-21T13:52:13 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T13:52:17 IST">
           <params>
             <param index="0">
               <value>
@@ -401,7 +401,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:testClasses.LoginTest@68567e20]" started-at="2022-06-21T13:30:12 IST" name="closeTab" finished-at="2022-06-21T13:30:13 IST" duration-ms="994" status="PASS">
+        <test-method status="PASS" signature="closeTab()[pri:0, instance:testClasses.LoginTest@5383967b]" name="closeTab" is-config="true" duration-ms="650" started-at="2022-06-21T13:52:17 IST" finished-at="2022-06-21T13:52:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTab -->

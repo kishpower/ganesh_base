@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 66.751 s <<< FAILURE! - in TestSuite
-fillInfo(testClasses.RegistrationTest)  Time elapsed: 14.226 s  <<< FAILURE!
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 198.103 s <<< FAILURE! - in TestSuite
+fillInfo(testClasses.RegistrationTest)  Time elapsed: 34.4 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
 
-fillInfo(testClasses.RegistrationTest)  Time elapsed: 2.793 s  <<< FAILURE!
+fillInfo(testClasses.RegistrationTest)  Time elapsed: 3.007 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
 
-fillInfo(testClasses.RegistrationTest)  Time elapsed: 4.768 s  <<< FAILURE!
+fillInfo(testClasses.RegistrationTest)  Time elapsed: 5.152 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
 	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
 
-fillCredentials(testClasses.LoginTest)  Time elapsed: 4.358 s  <<< FAILURE!
+fillCredentials(testClasses.LoginTest)  Time elapsed: 5.091 s  <<< FAILURE!
 java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
 	at testClasses.LoginTest.fillCredentials(LoginTest.java:84)
 
