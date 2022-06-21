@@ -8,6 +8,7 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -54,8 +55,10 @@ public class RegistrationTest extends Base {
 		Page.getEmail_field().sendKeys(email);
 		Page.getPassword_field().sendKeys(password);
 		Page.getPasswordConfirm_field().sendKeys(confirm_password);
-
-		Page.getRegister_btn().click();
+		JavascriptExecutor je = (JavascriptExecutor) driver;
+		je.executeScript(
+				"arguments[0].scrollIntoView(true);" + "arguments[0].click();",
+				Page.getRegister_btn());
 
 		String expected = "MERALDA || HOME";
 

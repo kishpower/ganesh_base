@@ -22,7 +22,7 @@ public class CustomListenerForLogin extends Base implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 
 		try {
-
+			System.out.println(result.getMethod().getMethodName());
 			getScreenshot(result.getMethod().getMethodName(),
 					result.getParameters()[0].toString());
 		} catch (IllegalArgumentException | SecurityException | IOException

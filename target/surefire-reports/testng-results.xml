@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="7" passed="3">
+<testng-results skipped="0" failed="6" ignored="0" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="136510" started-at="2022-06-17T16:24:59 IST" finished-at="2022-06-17T16:27:16 IST">
+  <suite name="Suite" duration-ms="85715" started-at="2022-06-21T11:24:37 IST" finished-at="2022-06-21T11:26:03 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="56455" started-at="2022-06-17T16:24:59 IST" finished-at="2022-06-17T16:25:56 IST">
+    <test name="Test" duration-ms="44611" started-at="2022-06-21T11:24:37 IST" finished-at="2022-06-21T11:25:21 IST">
       <class name="testClasses.RegistrationTest">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="invokeBrowser" is-config="true" duration-ms="4964" started-at="2022-06-17T16:24:59 IST" finished-at="2022-06-17T16:25:04 IST">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="invokeBrowser" is-config="true" duration-ms="4807" started-at="2022-06-21T11:24:37 IST" finished-at="2022-06-21T11:24:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="23785" started-at="2022-06-17T16:25:05 IST" data-provider="getData" finished-at="2022-06-17T16:25:29 IST">
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="21703" started-at="2022-06-21T11:24:42 IST" data-provider="getData" finished-at="2022-06-21T11:25:04 IST">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -99,7 +99,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillInfo -->
-        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="6134" started-at="2022-06-17T16:25:30 IST" data-provider="getData" finished-at="2022-06-17T16:25:36 IST">
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="2285" started-at="2022-06-21T11:25:04 IST" data-provider="getData" finished-at="2022-06-21T11:25:07 IST">
           <params>
             <param index="0">
               <value>
@@ -148,7 +148,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -187,7 +187,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillInfo -->
-        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="12205" started-at="2022-06-17T16:25:36 IST" data-provider="getData" finished-at="2022-06-17T16:25:48 IST">
+        <test-method status="FAIL" signature="fillInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="fillInfo" duration-ms="2368" started-at="2022-06-21T11:25:07 IST" data-provider="getData" finished-at="2022-06-21T11:25:09 IST">
           <params>
             <param index="0">
               <value>
@@ -236,7 +236,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:69)
+at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -275,23 +275,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillInfo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="closeBrowser" is-config="true" duration-ms="7539" started-at="2022-06-17T16:25:48 IST" finished-at="2022-06-17T16:25:56 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClasses.RegistrationTest@4566e5bd]" name="closeBrowser" is-config="true" duration-ms="12403" started-at="2022-06-21T11:25:09 IST" finished-at="2022-06-21T11:25:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testClasses.RegistrationTest -->
     </test> <!-- Test -->
-    <test name="Test1" duration-ms="80022" started-at="2022-06-17T16:25:56 IST" finished-at="2022-06-17T16:27:16 IST">
+    <test name="Test1" duration-ms="41071" started-at="2022-06-21T11:25:22 IST" finished-at="2022-06-21T11:26:03 IST">
       <class name="testClasses.LoginTest">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.LoginTest@5383967b]" name="invokeBrowser" is-config="true" duration-ms="4266" started-at="2022-06-17T16:25:56 IST" finished-at="2022-06-17T16:26:00 IST">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testClasses.LoginTest@5383967b]" name="invokeBrowser" is-config="true" duration-ms="3769" started-at="2022-06-21T11:25:22 IST" finished-at="2022-06-21T11:25:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:testClasses.LoginTest@5383967b]" name="openLoginPage" duration-ms="21792" started-at="2022-06-17T16:26:00 IST" finished-at="2022-06-17T16:26:22 IST">
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:testClasses.LoginTest@5383967b]" name="openLoginPage" duration-ms="10327" started-at="2022-06-21T11:25:25 IST" finished-at="2022-06-21T11:25:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openLoginPage -->
-        <test-method status="PASS" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="16700" started-at="2022-06-17T16:26:22 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-17T16:26:39 IST">
+        <test-method status="FAIL" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="2216" started-at="2022-06-21T11:25:36 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T11:25:38 IST">
           <params>
             <param index="0">
               <value>
@@ -300,33 +300,12 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
             </param>
             <param index="1">
               <value>
-                <![CDATA[9.40409404E9]]>
+                <![CDATA[9404094040]]>
               </value>
             </param>
             <param index="2">
               <value>
                 <![CDATA[adminadmin]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fillCredentials -->
-        <test-method status="FAIL" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="11181" started-at="2022-06-17T16:26:39 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-17T16:26:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[asr]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[9999999999]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ganeshw]]>
               </value>
             </param>
           </params>
@@ -341,7 +320,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at testClasses.LoginTest.fillCredentials(LoginTest.java:73)
+at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -380,7 +359,75 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method status="PASS" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="10594" started-at="2022-06-17T16:26:50 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-17T16:27:01 IST">
+        <test-method status="FAIL" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="2371" started-at="2022-06-21T11:25:38 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T11:25:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ganeshw]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MERALDA || HOME] but found [Meralda || Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillCredentials -->
+        <test-method status="FAIL" signature="fillCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testClasses.LoginTest@5383967b]" name="fillCredentials" duration-ms="2093" started-at="2022-06-21T11:25:40 IST" data-provider="getDataForLogin" depends-on-methods="testClasses.LoginTest.openLoginPage" finished-at="2022-06-21T11:25:42 IST">
           <params>
             <param index="0">
               <value>
@@ -398,10 +445,57 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [MERALDA || HOME] but found [Meralda || Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillCredentials -->
-        <test-method status="PASS" signature="closeTab()[pri:0, instance:testClasses.LoginTest@5383967b]" name="closeTab" is-config="true" duration-ms="15298" started-at="2022-06-17T16:27:01 IST" finished-at="2022-06-17T16:27:16 IST">
+        <test-method status="PASS" signature="closeTab()[pri:0, instance:testClasses.LoginTest@5383967b]" name="closeTab" is-config="true" duration-ms="20124" started-at="2022-06-21T11:25:42 IST" finished-at="2022-06-21T11:26:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTab -->
