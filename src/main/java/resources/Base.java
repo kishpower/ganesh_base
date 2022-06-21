@@ -1,21 +1,17 @@
 package resources;
 
-import java.awt.AWTException;
-import java.awt.HeadlessException;
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-import javax.imageio.ImageIO;
-
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 
 /*Base class for invoking browser,creating screen shots,
  * reading properties file
@@ -53,31 +49,31 @@ public class Base {
 					+ "\\src\\main\\java\\resources\\BrowserDrivers\\Chrome\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		// Dimension d = new Dimension(400, 400);
+
 		driver.manage().window().maximize();
 
 		return driver;
 	}
 
-	// public void getScreenshot(WebDriver driver, String methodName, String
-	// email)
-	// throws IOException {
-	//
-	//
-	// TakesScreenshot ts = (TakesScreenshot) driver;
-	// File src = ts.getScreenshotAs(OutputType.FILE);
-	// String destination = BASE_DIR + "\\reports\\" + methodName + "-" + email
-	// + ".jpg";
-	// FileHandler.copy(src, new File(destination));
-	// }
+	public void getScreenshot(WebDriver driver, String methodName, String email)
+			throws IOException {
+		JavascriptExecutor je = (JavascriptExecutor) driver;
+		je.executeScript("window.scrollTo(0,0);");
 
-	public void getScreenshot(String methodName, String email)
-			throws IOException, HeadlessException, AWTException {
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File src = ts.getScreenshotAs(OutputType.FILE);
+		String destination = BASE_DIR + "\\reports\\" + methodName + "-" + email
+				+ ".jpg";
+		FileHandler.copy(src, new File(destination));
+	}
 
-		BufferedImage image = new Robot().createScreenCapture(
-				new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
-		ImageIO.write(image, "jpg", new File(
-				BASE_DIR + "\\reports\\" + methodName + "-" + email + ".jpg"));
-	};
+	// public void getScreenshot(String methodName, String email)
+	// throws IOException, HeadlessException, AWTException {
+	//
+	// BufferedImage image = new Robot().createScreenCapture(
+	// new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
+	// ImageIO.write(image, "jpg", new File(
+	// BASE_DIR + "\\reports\\" + methodName + "-" + email + ".jpg"));
+	// };
 
 }

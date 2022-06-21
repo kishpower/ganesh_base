@@ -70,8 +70,9 @@ public class LoginTest extends Base {
 
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		je.executeScript(
-				"arguments[0].scrollIntoView(true);arguments[0].click();",
+				"arguments[0].scrollIntoView(true);",
 				lPage.getLogin_btn());
+		lPage.getLogin_btn().click();
 		String expected = "MERALDA || HOME";
 		String actualTitle = driver.getTitle();
 		if (actualTitle.equals(expected)) {

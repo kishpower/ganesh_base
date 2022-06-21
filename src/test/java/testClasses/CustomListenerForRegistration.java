@@ -1,9 +1,9 @@
 package testClasses;
 
-import java.awt.AWTException;
 import java.awt.HeadlessException;
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -22,14 +22,16 @@ public class CustomListenerForRegistration extends Base
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		// WebDriver driver = null;
+		WebDriver driver = null;
+		System.out.println(result.getMethod().getMethodName());
 		try {
-			// driver = (WebDriver) result.getTestClass().getRealClass()
-			// .getDeclaredField("driver").get(result.getInstance());
-			getScreenshot(result.getMethod().getMethodName(),
+			driver = (WebDriver) result.getTestClass().getRealClass()
+					.getDeclaredField("driver").get(result.getInstance());
+			getScreenshot(driver, result.getMethod().getMethodName(),
 					result.getParameters()[2].toString());
 		} catch (IllegalArgumentException | SecurityException | IOException
-				| HeadlessException | AWTException e) {
+				| HeadlessException | IllegalAccessException
+				| NoSuchFieldException e) {
 
 			e.printStackTrace();
 		}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="93.901" tests="7" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="66.751" tests="7" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\kish\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\kish\AppData\Local\Temp\surefire1734048868167476267\surefirebooter11677746370161537307.jar C:\Users\kish\AppData\Local\Temp\surefire1734048868167476267 2022-06-21T11-31-22_476-jvmRun1 surefire14714205614021464163tmp surefire_06461099257265062277tmp"/>
+    <property name="sun.java.command" value="C:\Users\kish\AppData\Local\Temp\surefire3940672808520847012\surefirebooter7020944126425213747.jar C:\Users\kish\AppData\Local\Temp\surefire3940672808520847012 2022-06-21T13-29-05_653-jvmRun1 surefire14828857363527980611tmp surefire_017089347293215656082tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\eclipse installed here\eclipse workspace\testAssign\target\test-classes;F:\eclipse installed here\eclipse workspace\testAssign\target\classes;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kish\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kish\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kish\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kish\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kish\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kish\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kish\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kish\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kish\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kish\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kish\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\kish\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\kish\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\kish\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kish\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kish\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\kish\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kish\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\kish\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\kish\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\kish\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kish\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kish\AppData\Local\Temp\surefire1734048868167476267\surefirebooter11677746370161537307.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kish\AppData\Local\Temp\surefire3940672808520847012\surefirebooter7020944126425213747.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12"/>
@@ -57,17 +57,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="22.733">
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="14.226">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
-	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
 </failure>
-    <system-err><![CDATA[1655791284184	geckodriver	INFO	Listening on 127.0.0.1:19172
-1655791284449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofile6q9rws"
-1655791284931	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofile6q9rws\\search.json.mozlz4", (void 0)))
-1655791287545	Marionette	INFO	Listening on port 53832
-1655791288064	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jun 21, 2022 11:31:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-out><![CDATA[fillInfo
+]]></system-out>
+    <system-err><![CDATA[1655798347343	geckodriver	INFO	Listening on 127.0.0.1:31748
+1655798347579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofileOs5V7h"
+1655798348025	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kish\\AppData\\Local\\Temp\\rust_mozprofileOs5V7h\\search.json.mozlz4", (void 0)))
+1655798350357	Marionette	INFO	Listening on port 58984
+1655798350809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 21, 2022 1:29:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
@@ -75,25 +77,25 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 ]]></system-err>
   </testcase>
-  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="2.805">
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="2.793">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
-	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
 </failure>
     <system-out><![CDATA[fillInfo
+fillInfo
 ]]></system-out>
-    <system-err><![CDATA[1655791311927	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-1655791311932	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
-JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
-JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+    <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 ]]></system-err>
   </testcase>
-  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="2.611">
+  <testcase name="fillInfo" classname="testClasses.RegistrationTest" time="4.768">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Register]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Register]
-	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:72)
+	at testClasses.RegistrationTest.fillInfo(RegistrationTest.java:73)
 </failure>
     <system-out><![CDATA[fillInfo
+fillInfo
 ]]></system-out>
     <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
@@ -102,52 +104,27 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-]]></system-err>
-  </testcase>
-  <testcase name="openLoginPage" classname="testClasses.LoginTest" time="16.96"/>
-  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="3.028">
-    <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
-	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
-</failure>
-    <system-out><![CDATA[fillCredentials
-]]></system-out>
-    <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-Jconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-avaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 ]]></system-err>
   </testcase>
-  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="2.903">
+  <testcase name="openLoginPage" classname="testClasses.LoginTest" time="12.898"/>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="13.27"/>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="4.358">
     <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
-	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
+	at testClasses.LoginTest.fillCredentials(LoginTest.java:84)
 </failure>
     <system-out><![CDATA[fillCredentials
 ]]></system-out>
-    <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" J"https://meralda.scalenexavaScript errot.ior: res"ourc
-e://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+    <system-err><![CDATA[JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
+console.wJaavaScrn:ript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+ LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
+console.warn: LoJginRecipes: "getRecipes: avaScript error: resource://gre/modules/LoginManagerParent.jfalling back to a synchronous message for:" "https://meralda.ssm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeErcalenror: gRexecipeManager is null
+t.io"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
 ]]></system-err>
   </testcase>
-  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="1.982">
-    <failure message="expected [MERALDA || HOME] but found [Meralda || Login]" type="java.lang.AssertionError">java.lang.AssertionError: expected [MERALDA || HOME] but found [Meralda || Login]
-	at testClasses.LoginTest.fillCredentials(LoginTest.java:83)
-</failure>
-    <system-out><![CDATA[fillCredentials
-]]></system-out>
-    <system-err><![CDATA[JavaScript error: https://meralda.scalenext.io/js/main.js, line 3: TypeError: $(...).niceNumber is not a function
-console.warn: LoginRecipes: "getRecipes: falling bacJk to a synchronous messagavaScrie pt error: resofor:" "https://meralda.scalenext.io"
-urce://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://meralda.scalenext.io"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-]]></system-err>
-  </testcase>
+  <testcase name="fillCredentials" classname="testClasses.LoginTest" time="3.314"/>
 </testsuite>

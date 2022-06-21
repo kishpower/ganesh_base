@@ -8,7 +8,7 @@
           <include name="invokeBrowser"/>
           <include name="closeTab"/>
           <include name="openLoginPage"/>
-          <include name="fillCredentials" invocation-numbers="0 1 2"/>
+          <include name="fillCredentials" invocation-numbers="1"/>
         </methods>
       </class> <!-- testClasses.LoginTest -->
     </classes>

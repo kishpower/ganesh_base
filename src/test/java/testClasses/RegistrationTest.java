@@ -56,10 +56,11 @@ public class RegistrationTest extends Base {
 		Page.getPassword_field().sendKeys(password);
 		Page.getPasswordConfirm_field().sendKeys(confirm_password);
 		JavascriptExecutor je = (JavascriptExecutor) driver;
-		je.executeScript(
-				"arguments[0].scrollIntoView(true);" + "arguments[0].click();",
+		je.executeScript("arguments[0].scrollIntoView(true);",
 				Page.getRegister_btn());
-
+		wait.until(
+				ExpectedConditions.elementToBeClickable(Page.getRegister_btn()))
+				.click();
 		String expected = "MERALDA || HOME";
 
 		String actualTitle = driver.getTitle();
